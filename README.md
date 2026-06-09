@@ -1,124 +1,73 @@
 # ☕ DevClub Coffee
 
-Um website moderno e responsivo de cafeteria especializada em atender programadores e desenvolvedores. Desenvolvido com HTML5 e CSS3 puro.
+Um website responsivo e moderno para uma cafeteria especializada, desenvolvido com HTML5 e CSS3 puro, sem dependências externas.
 
 ## 🎯 Sobre o Projeto
 
-DevClub Coffee é uma página web elegante e funcional para uma cafeteria que oferece as melhores bebidas para profissionais de tecnologia. O site apresenta informações sobre o estabelecimento, menu de bebidas, avaliações e localização.
+DevClub Coffee é um projeto de front-end que demonstra conhecimento sólido em:
+- Estruturação semântica de HTML5
+- Design responsivo com CSS3 puro
+- Princípios de UX/UI
+- Arquitetura limpa e organizada de código
 
-## ✨ Características
+O site apresenta uma navegação intuitiva, design premium com paleta de cores cuidadosamente escolhida, e implementação de boas práticas de desenvolvimento web moderno.
 
-- ✅ Design responsivo e moderno
-- ✅ Navegação intuitiva com âncoras
-- ✅ Seção de home com call-to-action
-- ✅ Sobre a empresa
-- ✅ Menu completo de bebidas com preços
-- ✅ Seção de avaliações
-- ✅ Informações de localização
-- ✅ Ícones interativos
-- ✅ Paleta de cores premium (dourado e preto)
-
-## 📂 Estrutura do Projeto
+## 🏗️ Arquitetura
 
 ```
 Cafeteria/
-├── index.html          # Arquivo HTML principal
-├── style.css           # Estilos CSS
-├── img/                # Pasta com imagens
-│   ├── logo.png
-│   ├── home-img.jpg
-│   ├── about-img.jpg
-│   ├── menu-1.png até menu-6.png
-│   ├── pic-1.png até pic-3.png
-│   └── quote-img.png
-└── README.md          # Este arquivo
+├── index.html      # Estrutura HTML semântica
+├── style.css       # Estilos CSS com variáveis customizáveis
+├── img/            # Assets otimizados
+└── README.md
 ```
 
-## 🛠️ Tecnologias Utilizadas
+## ✨ Características Principais
 
-- **HTML5** - Estrutura semântica
-- **CSS3** - Estilos e animações
-- **Google Fonts** - Tipografia (Roboto)
-- **Icons8** - Ícones de busca e carrinho
+- **HTML5 Semântico** - Estrutura bem organizada com seções semânticas
+- **CSS3 Moderno** - Variáveis CSS, Flexbox e boas práticas
+- **Design Responsivo** - Funciona perfeitamente em todos os dispositivos
+- **Paleta de Cores Premium** - Dourado (#d3ad7f) combinado com tons escuros
+- **Performance** - Sem dependências desnecessárias, carregamento rápido
+- **Acessibilidade** - Navegação clara e estrutura semântica adequada
 
-## 🎨 Menu de Bebidas
+## 📋 Seções Implementadas
 
-- ☕ Café Coado - R$ 14,99
-- ☕ Café Expresso - R$ 19,99
-- ☕ Capuccino - R$ 9,99
-- ☕ Café com Canela - R$ 14,99
-- ☕ Café com Chocolate - R$ 24,99
-- ☕ E mais opções!
+| Seção | Descrição |
+|-------|-----------|
+| **Header** | Navegação fixa com logo, menu e ícones interativos |
+| **Home** | Hero section com call-to-action |
+| **Sobre** | Informações sobre a empresa e diferenciais |
+| **Menu** | Galeria de produtos com imagens e preços |
+| **Avaliações** | Seção para reviews de clientes |
+| **Localização** | Informações de contato e endereço |
 
-## 🚀 Como Usar
+## 🛠️ Stack Tecnológico
 
-1. Clone este repositório:
-```bash
-git clone https://github.com/FelpsAfonsoJS/Cafeteria-HTML-CSS.git
-```
-
-2. Abra o arquivo `index.html` em seu navegador:
-```bash
-cd Cafeteria-HTML-CSS
-# Abra com seu navegador favorito ou use um servidor local
-```
-
-3. Alternativamente, use um servidor local:
-```bash
-python -m http.server 8000
-# Ou com Node.js (se tiver http-server instalado)
-npx http-server
-```
-
-## 📱 Responsividade
-
-O projeto foi desenvolvido com foco em responsividade, funcionando perfeitamente em:
-- 📱 Dispositivos móveis (até 480px)
-- 📱 Tablets (480px - 768px)
-- 💻 Desktops (acima de 768px)
+- **HTML5** - Markup semântico
+- **CSS3** - Styling com variáveis customizáveis
+- **Google Fonts** - Tipografia profissional (Roboto)
+- **Icons8 API** - Ícones SVG vetorizados
 
 ## 🎨 Paleta de Cores
 
-- **Cor Principal**: `#d3ad7f` (Dourado)
-- **Preto**: `#13131a`
-- **Fundo**: `#010103`
-- **Branco**: `#ffffff`
+```css
+--main-color: #d3ad7f    /* Dourado */
+--black: #13131a         /* Preto profundo */
+--bg: #010103            /* Fundo */
+--border: rgba(255, 255, 255, 0.3) /* Bordas sutis */
+```
 
-## 📝 Seções Principais
+## 📈 O que Demonstra
 
-### Header
-Barra de navegação fixa com logo, menu de navegação e ícones de busca e carrinho.
+✅ Conhecimento sólido de HTML5 e CSS3  
+✅ Atenção a detalhes e design  
+✅ Código limpo e bem organizado  
+✅ Implementação de boas práticas  
+✅ Capacidade de criar interfaces responsivas  
+✅ Uso adequado de variáveis CSS  
 
-### Home
-Banner com imagem de fundo, título chamativo e botão de call-to-action.
+## 👨‍💼 Autor
 
-### Sobre Nós
-Informações sobre a cafeteria e o diferencial do café oferecido.
-
-### Menu
-Galeria de bebidas com imagens, descrições, preços original e promocional.
-
-### Avaliações
-Seção para reviews e comentários de clientes.
-
-### Localização
-Informações de endereço e contato.
-
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-- Reportar bugs
-- Sugerir melhorias
-- Fazer pull requests
-
-## 📄 Licença
-
-Este projeto é de código aberto e está disponível para uso educacional e comercial.
-
-## 👨‍💻 Autor
-
-**Felps Afonso** - [GitHub](https://github.com/FelpsAfonsoJS)
-
----
-
-Feito com ☕ e ❤️ para programadores que amam um bom café!
+**Felps Afonso**  
+[GitHub](https://github.com/FelpsAfonsoJS) | [Projeto](https://github.com/FelpsAfonsoJS/Cafeteria-HTML-CSS)
